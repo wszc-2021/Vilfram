@@ -10,7 +10,7 @@ Wolfram`VilframStartup`$IsEnabled =
 
 If[TrueQ[Wolfram`VilframStartup`$IsEnabled],
 	(* Enable Vilfram in the current FrontEndSession. *)
-	ConnorGray`Vilfram`EnableVilfram[$FrontEndSession]
+	Vilfram`EnableVilfram[$FrontEndSession]
 ]
 
 Once[
@@ -19,16 +19,16 @@ Once[
 			MenuItem[
 				"Enable Vilfram",
 				FrontEnd`KernelExecute[
-					Needs["ConnorGray`Vilfram`"];
-					ConnorGray`Vilfram`EnableVilfram[];
+					Needs["Vilfram`"];
+					Vilfram`EnableVilfram[];
 				],
 				FrontEnd`MenuEvaluator -> Automatic
 			],
 			MenuItem[
 				"Disable Vilfram",
 				FrontEnd`KernelExecute[
-					Needs["ConnorGray`Vilfram`"];
-					ConnorGray`Vilfram`DisableVilfram[];
+					Needs["Vilfram`"];
+					Vilfram`DisableVilfram[];
 				],
 				FrontEnd`MenuEvaluator -> Automatic
 			]

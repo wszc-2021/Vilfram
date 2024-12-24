@@ -1,8 +1,8 @@
 (* ::Package:: *)
 
 PacletObject[<|
-	"Name" -> "ConnorGray/Vilfram",
-	"PublisherID" -> "ConnorGray",
+	"Name" -> "Vilfram",
+	"PublisherID" -> "ZC",
 	"Version" -> "0.0.1",
 	"WolframVersion" -> "13.2+",
 	"License" -> "MIT",
@@ -11,9 +11,9 @@ PacletObject[<|
 		{"Kernel",
 			"Root" -> "Kernel",
 			"Context" -> {
-				"ConnorGray`Vilfram`BeginStartup`",
-				"ConnorGray`Vilfram`",
-				"ConnorGray`Vilfram`EndStartup`"
+				"Vilfram`BeginStartup`",
+				"Vilfram`",
+				"Vilfram`EndStartup`"
 			}
 		},
 		{"Documentation", "Language" -> "English"}
